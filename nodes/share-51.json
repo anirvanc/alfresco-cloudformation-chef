@@ -89,5 +89,5 @@
             "type" : "amp"
         }
     },
-    "run_list": ["commons::ec2-tagging", "commons::artifact-deployer", "alfresco::apply-amps", "alfresco::share", "alfresco::haproxy", "alfresco::nginx-conf", "alfresco::redeploy"]
+    "run_list": ["commons::ec2-tagging", "commons::artifact-deployer", "alfresco::repo", "alfresco::apply-amps", "alfresco::share", "alfresco::haproxy", "alfresco::nginx-conf", "alfresco::redeploy"]
 }
